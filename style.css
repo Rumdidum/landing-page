@@ -1,18 +1,132 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
-    border: solid green 1px;
+    /* border: solid green 1px; */
+    color: white
 }
 body {
     font-family: Roboto;
-    height: 100vh;
-    background: rosybrown;
-    border: blue solid 1px;
+    background: #F9FAF8;
     margin: 0px;
+    display: flex;
+    flex-direction: column;
 }
-#container {
-    padding: 0px 100px;
+#first-section {
+    height: 800px;
+    background:#1F2937;
 }
-figure {
-    background: royalblue;
+.header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px;
+    padding-bottom: 50px;
+}
+.header-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header .links ul{
+    display: flex;
+    padding: 0px;
+    gap: 25px;
+}
+li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.container-hero {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 200px;
+    gap: 50px;
+    min-height: 400px;
+}
+.hero {
+    padding: 40px 0px;
+    align-self: center;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 900;
+}
+p, .links, footer{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+img {  
+    width: auto;
+    height: 400px;
+}
+#second-section {
+    display: flex;
+    height: 600px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 50px 350px;
+    
+}
+#second-section div {
+    display: flex;
+    color: #060409;
+}
+#second-section img {
+    width: 200px;
+    height: 200px;
+    background: ;
+    border-radius: 20px;
+    border: #3882F6 solid 4px;
+}
+#second-section h2 {
+    color: #1F2937;
+    font-size: 36px;
+}
+figcaption {
+    color: #8c8c8c;
+}
+
+#third-section {
+    height: 500px;
+    flex-grow: 3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#fourth-section {
+    height: 400px;
+    flex-grow: 2;
+    padding: 50px 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.call-action {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    background: #3882F6;
+    flex-grow: 1;
+    border-radius: 10px;
+}
+footer {
+    height: 10vh;
+    background:#1F2937;
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button {
+    background: #3882F6;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: white solid 4px;
+    font-size: 15px;
+    font-weight: 900;
 }
