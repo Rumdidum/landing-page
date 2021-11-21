@@ -2,7 +2,6 @@
 
 * {
     /* border: solid green 1px; */
-    color: white
 }
 body {
     font-family: Roboto;
@@ -10,9 +9,10 @@ body {
     margin: 0px;
     display: flex;
     flex-direction: column;
+    color: white
 }
 #first-section {
-    height: 800px;
+    height: 100vh;
     background:#1F2937;
 }
 .header {
@@ -62,12 +62,13 @@ img {
 }
 #second-section {
     display: flex;
-    height: 600px;
+    height: 50vh;
     justify-content: center;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    padding: 50px 350px;
+    padding: 0px 350px;
+    padding-bottom: 50px;
     
 }
 #second-section div {
@@ -90,29 +91,44 @@ figcaption {
 }
 
 #third-section {
-    height: 500px;
+    height: 50vh;
     flex-grow: 3;
     display: flex;
     justify-content: center;
     align-items: center;
+    background: #E5E7EB;
+}
+
+.quote {
+    margin: 0px 350px;
+    color: #1F2937;
+    font-size: 36px;
+}
+.thor {
+    color: black;
+    font-size: 26px;
+    text-align: right;
 }
 #fourth-section {
-    height: 400px;
+    height: 30vh;
     flex-grow: 2;
     padding: 50px 200px;
     display: flex;
     align-items: center;
     justify-content: center;
-    
 }
-.call-action {
+.container {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     padding: 50px;
     background: #3882F6;
     flex-grow: 1;
     border-radius: 10px;
+    padding: 50px 150px;
+}
+.call-action {
+    font-size: 26px;
 }
 footer {
     height: 10vh;
@@ -126,7 +142,8 @@ button {
     background: #3882F6;
     padding: 10px 30px;
     border-radius: 5px;
-    border: white solid 4px;
+    border: white solid 2px;
     font-size: 15px;
     font-weight: 900;
+    color: white;
 }
