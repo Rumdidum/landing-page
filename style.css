@@ -99,8 +99,11 @@ figcaption {
     background: #E5E7EB;
 }
 
-.quote {
+.quote-container {
     margin: 0px 350px;
+    
+}
+.quote-text {
     color: #1F2937;
     font-size: 36px;
 }
